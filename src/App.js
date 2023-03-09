@@ -1,21 +1,30 @@
-import "./App.css";
 import { Page } from "./components/Page";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <div className="Book">
+        <div className="Page">
+          <img
+            src="https://cdn.discordapp.com/attachments/1021653796159492106/1083492837833846894/If_youre_not_me_leave_this_be..png  "
+            height={"100%"}
+            width={"100%"}
+          ></img>
+        </div>
+      </div>
       <Page title={"Ganancia"}>
         <h4>Maldição Crucio, descoberta no século VII.</h4>
         <p className="Paragraph">
-          Era uma vez um homem que morava com sua familia em um vilarejo
-          comandado por um tirano
+          Era uma vez um homem que morava com sua família em um vilarejo
+          comandado por um tirano.
         </p>
         <p className="Paragraph">
           O homem não aguentava mais viver sob essas condições e tratou de tomar
           uma atitude.
         </p>
         <p className="Paragraph">
-          Ele conhecia um conselheiro leal do tirano que sabia de suas
+          Ele conhecia um conselheiro legal do tirano que sabia de suas
           fraquezas.
         </p>
         <p className="Paragraph">
@@ -23,7 +32,7 @@ function App() {
         </p>
         <p className="Paragraph">
           Planejando torturar o conselheiro até que ele fala-se, o homem criou
-          uma maldição terriveil que poderia extrair qualquer informação.
+          uma maldição terrível que poderia extrair qualquer informação.
         </p>
         <p className="Paragraph">
           Precisando testar o feitiço o homem atacou um morador de rua da cidade
@@ -35,20 +44,19 @@ function App() {
           pegou gosto pelo poder.
         </p>
         <p className="Paragraph">
-          A Ganancia do homem o transformou no próximo Tirano. Usou a maldição
+          A ganância do homem o transformou no próximo Tirano. Usou a maldição
           para se tornar cada vez mais poderoso.
         </p>
         <p className="Paragraph">
-          Ele Usou a maldição para se tornar cada vez mais poderoso.
+          Ele usou a maldição para se tornar cada vez mais poderoso.
         </p>
         <p className="Paragraph">
-          Até que um dia pós uma batalha pelo reino vizinho, ao torturar o rei
+          Até que um dia após uma batalha pelo reino vizinho, ao torturar o rei
           foi morto pelas costas por um aliado.
         </p>
       </Page>
-
       <Page title={"Gula"}>
-        <h4>Maldição Petrificus Totalus, descoberta no seculo VIII</h4>
+        <h4>Maldição Petrificus Totalus, descoberta no século VIII</h4>
         <p className="Paragraph"></p>
         <p className="Paragraph">
           Era uma vez um guarda, que tinha a missão de proteger um cofre com
@@ -62,25 +70,25 @@ function App() {
         <p className="Paragraph">
           Um dia o guarda começou a sentir uma forte tentação de comer as
           guloseimas que estavam lá dentro. Ele tentou resistir à tentação, mas
-          a ideia de se deliciar com o que estavam ali dentro era forte demais.{" "}
+          a ideia de se deliciar com o que estavam ali dentro era forte demais.
         </p>
         <p className="Paragraph">
           Foi então que ele descobriu um feitiço no cofre em meio aos tesouros.
-          Um feitiço capaz de transformar um individuo em pedra. O guarda viu
+          Um feitiço capaz de transformar um indivíduo em pedra. O guarda viu
           uma oportunidade de se aproveitar da situação e transformou o Protetor
           do cofre em pedra, para que pudesse ter livre acesso ao cofre.
         </p>
         <p className="Paragraph">
           Ele se esbaldou com as comidas e bebidas que estavam lá dentro, mas em
-          pouco tempo seu pecado da gula começou a mostrar suas consequências.
-          Ele engordou e ficou lento, tornando-se um alvo fácil para quem
-          quisesse roubar o cofre. Um dia, quando ele estava se deliciando, não
-          foi rápido o bastante e foi pego em flagrante pelo lorde.
+          pouco tempo gula começou a mostrar suas consequências. Ele engordou e
+          ficou lento, tornando-se um alvo fácil para quem quisesse roubar o
+          cofre. Um dia, quando ele estava se deliciando, não foi rápido o
+          bastante e foi pego em flagrante pelo lorde.
         </p>
         <p className="Paragraph">
           O guarda tentou explicar suas ações, mas o lorde ficou furioso e o
           demitiu imediatamente. Desde então ele nunca mais conseguiu comer as
-          delicias que ele tanto amava.
+          delícias que ele tanto amava.
         </p>
       </Page>
       <Page title={"Inveja"}>
