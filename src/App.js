@@ -1,7 +1,11 @@
 import { Page } from "./components/Page";
 import "./App.css";
+import { LineSummary } from "./components/LineSummary";
 
 function App() {
+  function irPara(destino) {
+    document.getElementById(destino).scrollIntoView();
+  }
   return (
     <div className="App">
       <div className="Book">
@@ -13,8 +17,53 @@ function App() {
           ></img>
         </div>
       </div>
-      <Page title={"Ganancia"}>
-        <h4>Maldição Crucio, descoberta no século VII.</h4>
+      <Page title={"Sumário"}>
+        <h4 id={"Sumario"}>Maldições</h4>
+        <LineSummary
+          irPara={irPara}
+          destino={"Ganancia"}
+          title={"Ganancia"}
+          page={2}
+        />
+        <LineSummary irPara={irPara} destino={"Gula"} title={"Gula"} page={3} />
+        <LineSummary
+          irPara={irPara}
+          destino={"Inveja"}
+          title={"Inveja"}
+          page={4}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Luxuria"}
+          title={"Luxuria"}
+          page={5}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Orgulho"}
+          title={"Orgulho"}
+          page={6}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Preguica"}
+          title={"Preguiça"}
+          page={7}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Raiva"}
+          title={"Raiva"}
+          page={8}
+        />
+      </Page>
+      <Page
+        pageNumber={2}
+        irPara={irPara}
+        destino={"Sumario"}
+        title={"Ganancia"}
+      >
+        <h4 id="Ganancia">Maldição Crucio, descoberta no século VII.</h4>
         <p className="Paragraph">
           Era uma vez um homem que morava com sua família em um vilarejo
           comandado por um tirano.
@@ -55,8 +104,10 @@ function App() {
           foi morto pelas costas por um aliado.
         </p>
       </Page>
-      <Page title={"Gula"}>
-        <h4>Maldição Petrificus Totalus, descoberta no século VIII</h4>
+      <Page pageNumber={3} irPara={irPara} destino={"Sumario"} title={"Gula"}>
+        <h4 id="Gula">
+          Maldição Petrificus Totalus, descoberta no século VIII
+        </h4>
         <p className="Paragraph"></p>
         <p className="Paragraph">
           Era uma vez um guarda, que tinha a missão de proteger um cofre com
@@ -91,8 +142,8 @@ function App() {
           delícias que ele tanto amava.
         </p>
       </Page>
-      <Page title={"Inveja"}>
-        <h4>
+      <Page pageNumber={4} irPara={irPara} destino={"Sumario"} title={"Inveja"}>
+        <h4 id="Inveja">
           Maldição foi descoberta no seculo XII, mas foi perdida durante a
           historia.
         </h4>
@@ -136,8 +187,13 @@ function App() {
           invejosa.
         </p>
       </Page>
-      <Page title={"Luxuria"}>
-        <h4>Maldição Imperio, descoberta no século IX</h4>
+      <Page
+        pageNumber={5}
+        irPara={irPara}
+        destino={"Sumario"}
+        title={"Luxuria"}
+      >
+        <h4 id="Luxuria">Maldição Imperio, descoberta no século IX</h4>
         <p className="Paragraph">
           Havia um homem rico que adorava ir ao bordel, ele sempre era bem
           recebido e todas as mulheres conheciam ele.
@@ -176,8 +232,13 @@ function App() {
           retornar todos estavam com raiva dele e o baniram da cidade.
         </p>
       </Page>
-      <Page title={"Orgulho"}>
-        <h4>Maldição Avada Kedavra, descoberta no séculos VIII</h4>
+      <Page
+        pageNumber={6}
+        irPara={irPara}
+        destino={"Sumario"}
+        title={"Orgulho"}
+      >
+        <h4 id="Orgulho">Maldição Avada Kedavra, descoberta no séculos VIII</h4>
         <p className="Paragraph">
           Havia uma vez um homem muito orgulhoso, ele era rico, poderoso e
           bem-sucedido, mas ele queria mais. Ele acreditava que era superior a
@@ -206,8 +267,13 @@ function App() {
           noite os assassinos invadiram o quarto do homem e o mataram.
         </p>
       </Page>
-      <Page title={"Preguiça"}>
-        <h4>Maldição Obliviate, descoberta no século X</h4>
+      <Page
+        pageNumber={7}
+        irPara={irPara}
+        destino={"Sumario"}
+        title={"Preguiça"}
+      >
+        <h4 id="Preguica">Maldição Obliviate, descoberta no século X</h4>
         <p className="Paragraph">
           Era uma vez um homem preguiçoso que passava seus dias sempre folgado e
           a toa.
@@ -240,8 +306,8 @@ function App() {
           O homem no fim ficou sozinho, se arrependendo do seu pecado.
         </p>
       </Page>
-      <Page title={"Raiva"}>
-        <h4>Maldiçao Sectumsempra, descoberta no século VII</h4>
+      <Page pageNumber={8} irPara={irPara} destino={"Sumario"} title={"Raiva"}>
+        <h4 id="Raiva">Maldiçao Sectumsempra, descoberta no século VII</h4>
         <p className="Paragraph">
           Havia um Caçador bruxo, que percorria as florestas em busca de
           criaturas mágicas para caçar. Ele era famoso por ter enfrentado uma
