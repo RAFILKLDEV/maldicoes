@@ -57,13 +57,53 @@ function App() {
           page={8}
         />
       </Page>
+      <Page title={"Sumário"}>
+        <h4 id={"Sumario"}>Estudos sobre as Maldições</h4>
+        <LineSummary
+          irPara={irPara}
+          destino={"Ganancia"}
+          title={"Ganancia"}
+          page={2}
+        />
+        <LineSummary irPara={irPara} destino={"Gula"} title={"Gula"} page={3} />
+        <LineSummary
+          irPara={irPara}
+          destino={"Inveja"}
+          title={"Inveja"}
+          page={4}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Luxuria"}
+          title={"Luxuria"}
+          page={5}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Orgulho"}
+          title={"Orgulho"}
+          page={6}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Preguica"}
+          title={"Preguiça"}
+          page={7}
+        />
+        <LineSummary
+          irPara={irPara}
+          destino={"Raiva"}
+          title={"Raiva"}
+          page={8}
+        />
+      </Page>
       <Page
         pageNumber={2}
         irPara={irPara}
         destino={"Sumario"}
         title={"Ganancia"}
       >
-        <h4 id="Ganancia">Maldição Crucio, descoberta no século VII.</h4>
+        <h4 id="Ganancia">Maldição Cruciatus, descoberta no século VII.</h4>
         <p className="Paragraph">
           Era uma vez um homem que morava com sua família em um vilarejo
           comandado por um tirano.
@@ -340,6 +380,55 @@ function App() {
           O feitiço já não funcionava como antes e o homem encontrou ali a sua
           redenção.
         </p>
+      </Page>
+
+      <Page
+        pageNumber={8}
+        irPara={irPara}
+        destino={"Sumario"}
+        title={"Estudo das Maldições"}
+      >
+        <h4 id="Raiva">Maldições e Arte das Trevas</h4>
+        <p className="Paragraph">
+          Eu sempre me perguntei por que os bruxos usam os pecados capitais como
+          fonte de poder para a Arte das Trevas. Como uma estudioso e
+          pesquisador da magia, fui a fundo nesse assunto e descobri que pecados
+          são considerados negativos porque representam comportamentos e
+          atitudes prejudiciais para a Alma. Capazes de trazer ruína as Almas
+          mais gentis.
+        </p>
+        <p className="Paragraph">
+          Ao usar magia com princípio negativo baseado nos pecados, estamos
+          essencialmente explorando as fraquezas humanas e os aspectos mais
+          sombrios da natureza humana para obter poder. É um caminho perigoso,
+          que exige sacrifícios de nossa moralidade e valores. Os bruxos e
+          feiticeiros que se aventuram por esse caminho buscam mais poder ou
+          influência, e muitas vezes são motivados pelo desejo de controlar
+          outras pessoas ou destruir seus inimigos. Suas almas são corrompidas e
+          entregues à escuridão.
+        </p>
+        <p className="Paragraph">
+          Esses feitiços poderosos e perigosos são usados para infligir dor e
+          sofrimento àqueles que são alvo delas. No entanto, nem todas as
+          maldições são iguais e algumas são consideradas tão terríveis que são
+          rotuladas como "imperdoáveis".
+        </p>
+        <p className="Paragraph">
+          A magia negativa é poderosa porque é baseada em emoções e energias
+          negativas. Os pecados capitais geram energias negativas, como raiva,
+          inveja, luxúria e avareza, que são facilmente canalizadas para a magia
+          negativa. No entanto, é importante lembrar que a magia negativa
+          baseada em pecados capitais é altamente perigosa e prejudicial. Ela
+          pode corromper a alma e transformar uma pessoa em um ser maligno e sem
+          escrúpulos.
+        </p>
+        <p className="Paragraph">
+          Se sucumbirmos aos poderes da magia negativa, corremos o risco de
+          sermos consumidos por nossos próprios desejos egoístas e destruirmos o mundo.
+        </p>
+        <p className="Paragraph"></p>
+        <p className="Paragraph"></p>
+        <p className="Paragraph"></p>
       </Page>
     </div>
   );
