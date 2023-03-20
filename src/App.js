@@ -61,40 +61,9 @@ function App() {
         <h4 id={"Sumario"}>Estudos sobre as Maldições</h4>
         <LineSummary
           irPara={irPara}
-          destino={"Ganancia"}
-          title={"Ganancia"}
+          destino={"Estudo"}
+          title={"Estudo das Maldições"}
           page={2}
-        />
-        <LineSummary irPara={irPara} destino={"Gula"} title={"Gula"} page={3} />
-        <LineSummary
-          irPara={irPara}
-          destino={"Inveja"}
-          title={"Inveja"}
-          page={4}
-        />
-        <LineSummary
-          irPara={irPara}
-          destino={"Luxuria"}
-          title={"Luxuria"}
-          page={5}
-        />
-        <LineSummary
-          irPara={irPara}
-          destino={"Orgulho"}
-          title={"Orgulho"}
-          page={6}
-        />
-        <LineSummary
-          irPara={irPara}
-          destino={"Preguica"}
-          title={"Preguiça"}
-          page={7}
-        />
-        <LineSummary
-          irPara={irPara}
-          destino={"Raiva"}
-          title={"Raiva"}
-          page={8}
         />
       </Page>
       <Page
@@ -388,7 +357,7 @@ function App() {
         destino={"Sumario"}
         title={"Estudo das Maldições"}
       >
-        <h4 id="Raiva">Maldições e Arte das Trevas</h4>
+        <h4 id="Estudo">Maldições e Arte das Trevas</h4>
         <p className="Paragraph">
           Eu sempre me perguntei por que os bruxos usam os pecados capitais como
           fonte de poder para a Arte das Trevas. Como uma estudioso e

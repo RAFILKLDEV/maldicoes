@@ -11,6 +11,10 @@ body {
   background-color: burlywood;
 }
 
+.App h2, .LineSummary {
+  cursor: pointer;
+}
+
 .App {
   text-align: center;
   height: 100%;
