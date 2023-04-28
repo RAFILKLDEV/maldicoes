@@ -58,7 +58,7 @@ function App() {
         />
       </Page>
       <Page title={"Sumário"}>
-        <h4 id={"Sumario"}>Estudos sobre as Maldições</h4>
+        <h4 id={"Sumario2"}>Estudos sobre as Maldições</h4>
         <LineSummary
           irPara={irPara}
           destino={"Estudo"}
@@ -74,42 +74,40 @@ function App() {
       >
         <h4 id="Ganancia">Maldição Cruciatus, descoberta no século VII.</h4>
         <p className="Paragraph">
-          Era uma vez um homem que morava com sua família em um vilarejo
-          comandado por um tirano.
+          Era um vez um nobre que morava com sua família em uma pequena cidade
+          comandada por um lider conservador.
         </p>
         <p className="Paragraph">
-          O homem não aguentava mais viver sob essas condições e tratou de tomar
-          uma atitude.
+          O nobre tinha enormes vinhedos e vendia na bem cidade, tinha potencial para lucrar mais, mas era limitado devido 
+          as leis do lider que sempre rancorava em seu coração para que o lider morresse.
         </p>
         <p className="Paragraph">
-          Ele conhecia um conselheiro legal do tirano que sabia de suas
-          fraquezas.
+          O Lider era protegido por inumeros guardas, apenas confiando no seu conselheiro.
         </p>
         <p className="Paragraph">
-          O conselheiro era um homem leal ao tirano e nunca o trairia.
+        O velho conservador não era convencido por nada que o nobre dizia e recusava todas as suas propostas.
         </p>
         <p className="Paragraph">
-          Planejando torturar o conselheiro até que ele fala-se, o homem criou
-          uma maldição terrível que poderia extrair qualquer informação.
+          Ele conhecia o conselheiro leal do lider ao qual lhe confiava a vida.
         </p>
         <p className="Paragraph">
-          Precisando testar o feitiço o homem atacou um morador de rua da cidade
-          e presenciou o poder da sua criação.
+          O nobre começou a procurar uma forma de arrancar as informações do conselheiro.
+          Depois de gastar parte da sua fortuna encontrou um bruxo que lhe ensinou uma maldição que ninguem poderia suportar.
         </p>
         <p className="Paragraph">
-          Ele invadiu a casa do conselheiro e o torturou até lhe entregasse a
-          fraqueza do tirano. Conseguindo o que queria, ele derrotou o tirano e
-          pegou gosto pelo poder.
+          Sabendo disso ele torturou o conselheiro até que ele descobrisse como se livrar deles.
+          Forjou uma carta dizendo que foram encuralados em uma viagem e que o lider havia morrido.       
         </p>
         <p className="Paragraph">
-          A ganância do homem o transformou no próximo Tirano. Usou a maldição
-          para se tornar cada vez mais poderoso.
+          Executando seu plano o nobre ganancioso consquistou a pequena cidade.
+          Em pouco tempo o reino.
         </p>
         <p className="Paragraph">
-          Ele usou a maldição para se tornar cada vez mais poderoso.
+          A ganância do homem o transformou em um Tirano.
+          Ele usava a maldição para se tornar cada vez mais poderoso.
         </p>
         <p className="Paragraph">
-          Até que um dia após uma batalha pelo reino vizinho, ao torturar o rei
+          Até que um dia após uma batalha planejando conquistar o reino vizinho, ao torturar o rei
           foi morto pelas costas por um aliado.
         </p>
       </Page>
@@ -164,7 +162,7 @@ function App() {
           distantes.
         </p>
         <p className="Paragraph">
-          o homem viu as 2 irmãs e se apaixonou por uma delas, no último dia de
+          o homem viu as irmãs e se apaixonou por uma delas, no último dia de
           sua visita ele disse que voltaria para buscá-la.
         </p>
         <p className="Paragraph">
@@ -180,11 +178,11 @@ function App() {
           com o homem.
         </p>
         <p className="Paragraph">
-          Ela transfigurou e amaldiçoou o seu próprio rosto para que ela pudesse
-          substituir sua irmã.
+          Ela amaldiçou e transfigurou a si mesma para que se parecesse com sua irmã e pudesse
+          substitui-la.
         </p>
         <p className="Paragraph">
-          No grande dia a irmã invejosa fez um pacto, que elas nunca contaram
+          No grande dia a irmã invejosa fez um pacto com sua irmã, que elas nunca contariam
           seus segredos a ninguém.
         </p>
         <p className="Paragraph">
@@ -354,11 +352,10 @@ function App() {
       <Page
         pageNumber={8}
         irPara={irPara}
-        destino={"Sumario"}
+        destino={"Sumario2"}
         title={"Estudo das Maldições"}
       >
-        <h4 id="Estudo">Maldições e Arte das Trevas</h4>
-        <p className="Paragraph">
+        <p id="Estudo" className="Paragraph">
           Eu sempre me perguntei por que os bruxos usam os pecados capitais como
           fonte de poder para a Arte das Trevas. Como uma estudioso e
           pesquisador da magia, fui a fundo nesse assunto e descobri que pecados
