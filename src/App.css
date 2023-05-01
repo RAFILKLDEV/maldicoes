@@ -78,12 +78,6 @@ body {
   right: 50px;
 }
 
-@media (max-width: 1024px) {
-  .Page {
-    scale: 0.9;
-  }
-}
-
 @media (max-width: 425px) {
   .Book {
     width: 420px;
@@ -100,27 +94,6 @@ body {
 }
 
 @media (max-height: 800px) {
-  .Page {
-    height: 730px;
-  }
-
-  .Page-Content {
-    height: 600px;
-    font-size: 15px;
-  }
-  
-  h2 {
-    font-size: 20px;
-    padding: 0px;
-    margin: 5px;
-  }
-
-  h4 {
-    margin: 0px;
-  }
-}
-
-@media (max-height: 700px) {
   .Page {
     height: 670px;
   }
