@@ -119,3 +119,24 @@ body {
     margin: 0px;
   }
 }
+
+@media (max-height: 700px) {
+  .Page {
+    height: 670px;
+  }
+
+  .Page-Content {
+    height: 540px;
+    font-size: 13px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    padding: 0px;
+    margin: 5px;
+  }
+
+  h4 {
+    margin: 0px;
+  }
+}
