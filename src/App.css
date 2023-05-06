@@ -95,11 +95,11 @@ body {
 
 @media (max-height: 800px) {
   .Page {
-    height: 670px;
+    height: 610px;
   }
 
   .Page-Content {
-    height: 540px;
+    height: 480px;
     font-size: 13px;
   }
   
